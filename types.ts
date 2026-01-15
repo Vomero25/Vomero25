@@ -45,6 +45,11 @@ export interface CommercialStrategy {
     description: string;
   }[];
   keyBenefits: string[];
+  elevatorPitch: string;
+  objections: {
+    doubt: string;
+    answer: string;
+  }[];
 }
 
 export interface StoryCase {
